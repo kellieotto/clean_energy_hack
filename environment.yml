@@ -1,0 +1,21 @@
+name: evvaru
+
+channels:
+    - conda-forge
+
+dependencies:
+    - python=3.6
+    - numba=0.35.0
+    - numpy=1.13.3
+    - matplotlib=2.1.0
+    - pandas=0.21.0
+    - seaborn=0.8.1
+    - nb_conda=2.2.1
+    - pytables=3.4.2
+    - nltk=3.2.5
+    - h5py=2.7.1
+    - scikit-learn=0.19.1
+    - scipy=1.0.0
+    - numba
+    - pip:
+        - Yahoo-ticker-downloader
